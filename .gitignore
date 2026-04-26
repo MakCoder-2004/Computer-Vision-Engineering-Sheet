@@ -57,6 +57,22 @@ Tools and Libraries/Yolo/data_for_object_detection/outputs/
 # Tools and Libraries/Yolo/data_for_object_detection/inputs/
 
 # -----------------------------
+# Detectron2 dataset images (explicit)
+# -----------------------------
+Tools and Libraries/Detectron2/**/images/
+Tools and Libraries/Detectron2/**/*.jpg
+Tools and Libraries/Detectron2/**/*.jpeg
+Tools and Libraries/Detectron2/**/*.png
+Tools and Libraries/Detectron2/**/*.webp
+Tools and Libraries/Detectron2/**/*.bmp
+Tools and Libraries/Detectron2/**/*.tif
+Tools and Libraries/Detectron2/**/*.tiff
+Tools and Libraries/Detectron2/**/*.gif
+Tools and Libraries/Detectron2/**/*.[jJ][pP][gG]
+Tools and Libraries/Detectron2/**/*.[jJ][pP][eE][gG]
+Tools and Libraries/Detectron2/**/*.[pP][nN][gG]
+
+# -----------------------------
 # Image files (all common formats)
 # -----------------------------
 *.jpg
