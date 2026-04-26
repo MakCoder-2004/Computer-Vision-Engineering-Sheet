@@ -1,4 +1,4 @@
-# Computer Vision Learning Workspace
+# Computer Vision Engineering
 
 This repository organizes practical computer vision topics, notebooks, and utility code in one place.
 
