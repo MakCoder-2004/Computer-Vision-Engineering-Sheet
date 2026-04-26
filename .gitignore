@@ -1,0 +1,83 @@
+# -----------------------------
+# Python environments & caches
+# -----------------------------
+.venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# -----------------------------
+# Notebook / Python tooling
+# -----------------------------
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# -----------------------------
+# IDE / OS
+# -----------------------------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Model weights / binaries
+# (kept local; usually large or license-restricted)
+# -----------------------------
+Models/
+**/*.onnx
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.tflite
+**/*.engine
+**/*.weights
+
+# -----------------------------
+# Training outputs & generated artifacts
+# -----------------------------
+Tools and Libraries/Yolo/runs/
+Tools and Libraries/Yolo/data_for_object_detection/outputs/
+
+# -----------------------------
+# Optional dataset privacy/size exclusions
+# Uncomment if needed for private/large datasets
+# -----------------------------
+# Tools and Libraries/Detectron2/train/
+# Tools and Libraries/Detectron2/valid/
+# Tools and Libraries/Detectron2/test/
+# Tools and Libraries/Yolo/data_for_image_segmentation/images/
+# Tools and Libraries/Yolo/data_for_image_segmentation/labels/
+# Tools and Libraries/Yolo/data_for_image_segmentation/masks/
+# Tools and Libraries/Yolo/data_for_object_detection/inputs/
+
+# -----------------------------
+# Image files (all common formats)
+# -----------------------------
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.svg
+*.jfif
+*.heic
+*.heif
+*.ico
+*.txt
+*.cache
+*.log
+*.csv
+*.json
+*.xml
+*.zip
+*.mp4
+*.avi
